@@ -1,0 +1,97 @@
+html {
+   height: 100%;
+   box-sizing: border-box;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+   scroll-behavior: smooth;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+body {
+   font-family:"Dancing Script", "serif", "sans-serif";
+   font-size: 16px;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
+}
+
+.sabin {
+   position: fixed;
+   z-index: 50;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(239,187,207);
+}
+
+.continer {
+   padding: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid teal;
+}
+
+.header-top-wrapper {
+   margin-right: -100px;
+   margin-left: -100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.sabin__title {
+   font-size: 50px;
+   font-weight: bold;
+   margin: 0;
+   color: rgb(134,117,169);
+   text-shadow: 0 3px 5px rgb(189, 168, 209);
+   letter-spacing: 2px;
+   margin-right: 5px;
+}
+
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.sabin__logo {
+   display: inline-block;
+   border-radius: 50%;
+}
+.sabin__list {
+   display: flex;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+
+.item__link {
+   display: inline-block;
+   padding: 10px;
+   font-family: "Dancing Script";
+   text-decoration: none;
+   border-radius: 5px;
+   text-transform: uppercase;
+   background-color:rgb(255,193,243);
+   color: rgb(134,117,169);
+   
+}
+
+.item__list {
+   display: none;
+}
