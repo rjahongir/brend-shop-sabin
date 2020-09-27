@@ -28,17 +28,17 @@ body {
 }
 
 .sabin {
-   position: fixed;
+ /*   position: fixed;
    z-index: 50;
    top: 0;
    left: 0;
    width: 100%;
-   height: 100%;
-   background-color: rgba(233, 182, 202, 0.904);
+   height: 100%; */
+   background-color: rgba(233, 182, 202, 0.904);  
 }
 
 .continer {
-   padding: 10px;
+   padding: 5px;
    margin-left: auto;
    margin-right: auto;
    border: 1px solid teal;
@@ -67,12 +67,13 @@ body {
 
 .wrapper {
    display: flex;
-   align-items: center;
+   align-items: stretch;
    justify-content: space-between;
 }
 
 .sabin__logo {
    display: inline-block;
+   width: 60px;
    border-radius: 50%;
 }
 .sabin__list {
@@ -85,14 +86,16 @@ body {
 
 .item__link {
    display: inline-block;
-   padding:5px 10px;
+   padding:5px 6px;
    font-family: "Dancing Script";
    font-size: 13px;
    text-decoration: none;
+   white-space: nowrap;
    border-radius: 5px;
    text-transform:capitalize;
    background-color:rgba(212, 83, 187, 0.822);
-   color: rgb(235, 232, 222);
+   color: rgb(253, 229, 253);
+   transition: background-color 0.5s ease , color 0.5s ease 0.3s;
 }
 
 /* .item__link:visited{
@@ -102,19 +105,74 @@ body {
 .item__link:hover,
 .item__link:active{
    background-color:rgba(156, 4, 156, 0.781);
-   color: rgb(235, 232, 222);
+   color: rgb(255, 255, 255);
 }
 .tel {
-   display: inline-block;
+   display:flex;
+   align-items: center;
    padding: 5px 10px;
    text-decoration: none;
    font-size: 10px;
+   white-space: nowrap;
    border-radius: 6px;
-   background-color: rgb(181,144,202);
-   color: rgb(245,202,179);
+   background-color: rgb(164, 119, 190);
+   color: rgb(252, 208, 242);
+   transition: background-color 0.5s ease , color 0.5s ease 0.3s;
+}
+
+.tel:hover,
+.tel:active{
+   background-color:rgba(156, 4, 156, 0.781);
+   color: rgb(253, 253, 253);
 }
 
 .item__list {
    display: none;
 }
 
+
+.footer {
+   background-color: rgb(206, 171, 211);
+}
+
+/* .footer__email {
+
+} */
+
+.email-label {
+font-size: 13px;
+color: #fff;
+}
+
+.email-input{
+   display: inline-block;
+   text-align: left;
+   padding: 4px ;
+   width: 50%;
+   border-radius: 5px;
+border: 1px solid transparent;
+background-color: rgb(243, 182, 243);
+}
+
+.email-input::placeholder{
+   font-size: 12px;
+   color:#fff;
+}
+
+.telegram-link {
+   display: flex;
+   align-items: center;
+}
+.telegram-link > h3 {
+   color: #fff;
+   font-size: 15px;
+   letter-spacing: 1.1px;
+}
+.telegram-links > img {
+  display:block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  margin-left: 10px;
+}
