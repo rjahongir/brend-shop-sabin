@@ -185,4 +185,25 @@ background-color: rgb(243, 182, 243);
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: center;
+   width: calc((100% - 10px) / 2);
+   padding: 5px;
+   border-radius: 5px;
+   overflow: hidden;
+   background-color: rgb(174, 128, 211);
+}
+.itemss__img {
+   display:block;
+   margin-bottom: 4px;
+   width: 95%;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.itemss__odejda {
+   margin: 0;
+   margin-bottom: 4px;
+   font-size: 14px;
+   color: rgb(253, 229, 253);
 }
