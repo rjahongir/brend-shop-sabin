@@ -199,7 +199,7 @@ background-color: rgb(243, 182, 243);
    background-color: rgb(174, 128, 211);
 }
 
-.main__item::before{
+.before{
 position: absolute;
 z-index: 1;
 top: 0;
@@ -209,11 +209,10 @@ text-transform: capitalize;
 font-size: 18px;
 font-family: serif;
 font-weight: bold;
-transform: rotate(-45deg)translate(-219px, -194px);
+transform: rotate(-45deg)translate(-209px, -194px);
 text-align: center;
 background-color: rgba(63, 206, 7, 0.822);
 color: rgb(255, 255, 255);
-content: "new tovar";
 }
 
 .itemss__img {
