@@ -548,12 +548,12 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: calc((100% - 33px) / 2);
+      width: calc((100% - 76px) / 2);
       padding-left: 5px;
       padding-right: 5px;
       padding-bottom: 14px;
-      margin-left: 8px;
-      margin-right: 8px;
+      margin-left: 29px;
+      /* margin-right: 18px; */
       margin-bottom: 15px;
       box-shadow: -5px 5px 14px rgba(56, 38, 38, 0.671);
       text-align: left;
@@ -623,7 +623,7 @@ body {
    } .spann-m{
       font-weight: 600;
       color: rgb(16, 51, 167);
-   } .spann-l{
+   } .spann-{
       font-weight: 600;
       color: rgb(146, 6, 18);
    } .spann-xl{
