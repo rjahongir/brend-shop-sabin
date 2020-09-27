@@ -331,7 +331,7 @@ body {
       display: flex;
       flex-direction: column;
        width: 100%;
-      background-color: rgba(2, 119, 174, 0.897);  
+      background-color: rgba(239,187,207);  
    }
    main{
       flex-grow: 1;
