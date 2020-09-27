@@ -28,7 +28,7 @@ body {
 }
 
 .sabin {
- /*   position: fixed;
+   /*   position: fixed;
    z-index: 50;
    top: 0;
    left: 0;
@@ -124,7 +124,7 @@ body {
    color: rgb(253, 253, 253);
 }
 
- .item__list {
+.item__list {
    display: none;
 } 
 
@@ -134,12 +134,12 @@ body {
 }
 
 /* .footer__email {
-
+   
 } */
 
 .email-label {
-font-size: 13px;
-color: #fff;
+   font-size: 13px;
+   color: #fff;
 }
 
 .email-input{
@@ -148,8 +148,8 @@ color: #fff;
    padding: 4px ;
    width: 50%;
    border-radius: 5px;
-border: 1px solid transparent;
-background-color: rgb(243, 182, 243);
+   border: 1px solid transparent;
+   background-color: rgb(243, 182, 243);
 }
 
 .email-input::placeholder{
@@ -167,12 +167,12 @@ background-color: rgb(243, 182, 243);
    letter-spacing: 1.1px;
 }
 .telegram-links > img {
-  display:block;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: transparent;
-  margin-left: 10px;
+   display:block;
+   border-radius: 50%;
+   width: 20px;
+   height: 20px;
+   background-color: transparent;
+   margin-left: 10px;
 }
 
 .mani__list{
@@ -184,53 +184,55 @@ background-color: rgb(243, 182, 243);
 }
 .main__item{
    position: relative;
-   z-index: 1;
+   z-index: 10;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   width: calc((100% - 50px) / 2);
-   padding: 15px;
-   margin-left: 15px;
+   width: calc((100% - 33px) / 2);
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 14px;
+   margin-left: 8px;
+   margin-right: 8px;
    margin-bottom: 15px;
-   box-shadow: -5px 5px 14px rgba(5, 5, 5, 0.671);
+   box-shadow: -5px 5px 14px rgba(56, 38, 38, 0.671);
    text-align: left;
    border-radius: 5px;
    overflow: hidden;
-   background-color: rgb(174, 128, 211);
+   background-color: rgba(217, 235, 168, 0.575);
 }
 
 .before{
-position: absolute;
-z-index: 1;
-top: 0;
-left: 0;
-width: 100%;
-text-transform: capitalize;
-font-size: 18px;
-font-family: serif;
-font-weight: bold;
-transform: rotate(-45deg)translate(-209px, -194px);
-text-align: center;
-background-color: rgba(63, 206, 7, 0.822);
-color: rgb(255, 255, 255);
+   position: absolute;
+   z-index: 2;
+   top: 0;
+   left: 0;
+   transform: rotate(-45deg) translate(-40px, -45px);
+   width: 100%;
+   text-transform: capitalize;
+   font-size: 12px;
+   font-family: serif;
+   font-weight: bold;
+   text-align: center;
+   background-color: rgba(63, 206, 7, 0.822);
+   color: rgb(255, 255, 255);
 }
 
 .itemss__img {
    display:block;
-   margin-bottom: 4px;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
+   margin-bottom: 8px;
+   margin-right: -14px;
+   margin-left: -14px;
    height: 200px;
    object-fit: cover;
-   border-radius: 10px;
 }
 
 .itemss__odejda {
    margin: 0;
-   margin-bottom: 4px;
-   font-size: 20px;
-   color: rgb(253, 229, 253);
+   white-space: nowrap;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 13px;
+   color: rgb(36, 32, 36);
 }
 .itemss__narh {
    margin: 0;
@@ -239,15 +241,19 @@ color: rgb(255, 255, 255);
    font-size: 20px;
    font-weight: bold;
    text-align: left;
-   color: rgb(112, 241, 92);
+   color: rgb(11, 71, 2);
 }
+.sup {
+   font-size: 15px;
+}
+
 .itemss__razmer {
    margin: 0;
    margin-bottom: 4px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 15px;
+   font-size: 13px;
    font-weight:400;
    text-align: left;
    text-transform: uppercase;
-   color: rgb(255, 251, 255);
+   color: rgb(32, 28, 32);
 }
