@@ -247,6 +247,11 @@ body {
    margin: 0;
    list-style-type: none;
 }
+.main__container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .main__item{
    position: relative;
    z-index: 10;
